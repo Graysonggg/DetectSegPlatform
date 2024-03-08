@@ -20,7 +20,7 @@ class EmailOP:
         self.smtp.login(user=self.user, password=self.password)  # 登录邮箱
 
     def send(self, subject, body, recipient_name, recipient_email,
-             sender_name='基于深度学习算法的垃圾检测系统'):
+             sender_name='基于YOLO-World的目标检测及其分割管理平台'):
         """
         subject：邮件主题
         body：邮件正文

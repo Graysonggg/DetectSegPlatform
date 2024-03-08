@@ -85,11 +85,11 @@ export const constantRoutes: RouteRecordRaw[] = [
     component: Layout,
     children: [
       {
-        path: "https://www.cnblogs.com/Flat-White/",
+        path: "https://github.com/Graysonggg/DetectSegPlatform",
         component: () => {},
         name: "Link",
         meta: {
-          title: "个人博客",
+          title: "项目源码",
           svgIcon: "Avatar"
         }
       }
