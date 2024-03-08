@@ -66,7 +66,7 @@ def get_register_captcha():
             # captcha = random.randint(10000, 99999)
             captcha = ''.join(random.sample(string.ascii_letters + string.digits, 5))
             # I/O操作 耗费时间长 实际开发使用队列任务
-            message = Message(subject='基于深度学习算法的垃圾检测系统验证码',
+            message = Message(subject='基于YOLO-World的目标检测及其分割管理平台验证码',
                               recipients=[email],
                               body=f'您的验证码：{captcha}')
             # 📮发送邮件📮

@@ -25,4 +25,4 @@ MAIL_USE_SSL = True
 MAIL_PORT = 465
 MAIL_USERNAME = 'xxx@qq.com'
 MAIL_PASSWORD = 'xxx'
-MAIL_DEFAULT_SENDER = ("基于深度学习算法的垃圾检测系统", "xxx@qq.com")
+MAIL_DEFAULT_SENDER = ("基于YOLO-World的目标检测及其分割管理平台", "xxx@qq.com")
